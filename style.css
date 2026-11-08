@@ -2025,7 +2025,7 @@ h1, h2, h3 { font-family: var(--heading); }
   padding: 95px 0 100px;
   color: white;
   background: linear-gradient(110deg, rgba(7, 28, 64, 0.96), rgba(11, 42, 91, 0.9) 65%, rgba(16, 59, 125, 0.85)),
-              url("assets/images/heat-pump-rooftop-2.jpg") center 48% / cover,
+              url("heat-pump-rooftop-2.jpg") center 48% / cover,
               linear-gradient(115deg, #071c40, #0b2a5b 65%, #103b7d);
 }
 .contact-section::before {
@@ -2352,7 +2352,7 @@ h1, h2, h3 { font-family: var(--heading); }
 .site-footer {
   color: rgba(255, 255, 255, 0.74);
   background: linear-gradient(rgba(4, 15, 34, 0.95), rgba(4, 15, 34, 0.98)),
-              url("assets/images/heat-pump-rooftop-3.jpg") center 60% / cover,
+              url("heat-pump-rooftop-3.jpg") center 60% / cover,
               #040f22;
 }
 .footer-main {
