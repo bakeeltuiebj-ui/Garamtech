@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Garamtech gear and flame</title>
+  <defs>
+    <linearGradient id="gear" x1="13" y1="8" x2="88" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E5BFF"/>
+      <stop offset="1" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="39" y1="32" x2="63" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A00"/>
+      <stop offset="1" stop-color="#FFC24A"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="45" y1="47" x2="58" y2="67" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8D6"/>
+      <stop offset="1" stop-color="#FFD66E"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gear)">
+    <circle cx="50" cy="50" r="38"/>
+    <rect x="44" y="2" width="12" height="20" rx="2"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(30 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(60 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(90 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(120 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(150 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(180 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(210 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(240 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(270 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(300 50 50)"/>
+    <rect x="44" y="2" width="12" height="20" rx="2" transform="rotate(330 50 50)"/>
+  </g>
+  <path d="M50 22.5 73.82 36.25V63.75L50 77.5 26.18 63.75V36.25L50 22.5Z" fill="#0B2A5B" stroke="#C9D9FF" stroke-width="1.6"/>
+  <path d="M51.7 31.5C54.7 39.5 48.4 43.1 53.1 49.1C53.4 44.8 56 41.9 58.2 39.5C58.1 46.3 65.8 49.6 65.8 57.7C65.8 66.1 59.2 71.9 50.8 71.9C42.5 71.9 36.4 66.2 36.4 58.6C36.4 51.7 41.1 47.8 45.7 43.1C49.5 39.2 51.8 35.4 51.7 31.5Z" fill="url(#flame)"/>
+  <path d="M50.1 51.3C48.5 54 45.4 56.4 45.4 60C45.4 63.4 47.8 65.8 51 65.8C54.3 65.8 56.6 63.4 56.6 60.2C56.6 57 53.5 54.2 50.1 51.3Z" fill="url(#highlight)"/>
+</svg>

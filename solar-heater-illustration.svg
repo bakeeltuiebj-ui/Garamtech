@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title">
+  <title id="title">Solar water heater collector and storage tank illustration</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#bfd5ef"/></linearGradient><linearGradient id="tank" x2="1"><stop stop-color="#8298b2"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#8ba1bb"/></linearGradient></defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <circle cx="744" cy="122" r="60" fill="#ffb132"/>
+  <path d="M0 460 900 395v225H0Z" fill="#b5cbe4"/>
+  <g transform="skewX(-12) translate(75 0)">
+    <rect x="85" y="188" width="370" height="250" rx="14" fill="#0b2a5b"/>
+    <path d="M117 218h305v190H117z" fill="#1e5bff"/>
+    <path d="M117 280h305M117 343h305M218 218v190m102-190v190" stroke="#a9cdff" stroke-width="8" opacity=".8"/>
+    <path d="M140 230 260 400M245 220l126 183" stroke="#fff" stroke-width="5" opacity=".35"/>
+  </g>
+  <path d="M510 267h95v-98h124v99" fill="none" stroke="#ff8a00" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="569" y="254" width="195" height="270" rx="90" fill="url(#tank)" stroke="#587493" stroke-width="7"/>
+  <ellipse cx="666.5" cy="259" rx="97.5" ry="27" fill="#fff" stroke="#587493" stroke-width="6"/>
+  <path d="M598 329h136m-136 25h136" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <text x="54" y="574" fill="#0b2a5b" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="3">SOLAR HOT WATER SYSTEM</text>
+</svg>

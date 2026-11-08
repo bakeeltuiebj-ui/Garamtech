@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title">
+  <title id="title">Air-source heat pump water heating system illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eaf3ff"/><stop offset="1" stop-color="#bfd5f2"/></linearGradient>
+    <linearGradient id="steel" x2="1"><stop stop-color="#8298b2"/><stop offset=".45" stop-color="#fff"/><stop offset="1" stop-color="#8ba1bb"/></linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <path d="M0 520 900 440v260H0Z" fill="#b3c8e1"/>
+  <path d="M88 527h727M145 182h616M145 230h616" stroke="#fff" stroke-width="8" opacity=".7"/>
+  <g stroke="#647f9f" stroke-width="7">
+    <rect x="194" y="215" width="195" height="300" rx="91" fill="url(#steel)"/>
+    <ellipse cx="291.5" cy="219" rx="97.5" ry="28" fill="#f8fbff"/>
+    <rect x="470" y="260" width="185" height="255" rx="18" fill="#f6f9fe"/>
+    <rect x="487" y="278" width="151" height="219" rx="11" fill="#dbe7f6" stroke="#8ca2bc"/>
+  </g>
+  <circle cx="562" cy="387" r="77" fill="#eff5fc" stroke="#1e5bff" stroke-width="8"/>
+  <circle cx="562" cy="387" r="14" fill="#0b2a5b"/>
+  <path d="M562 373c-46-50-55 22 0 14 55 8 46-64 0-14Zm14 14c50-46-22-55-14 0-8 55 64 46 14 0Zm-14 14c46 50 55-22 0-14-55-8-46 64 0 14Zm-14-14c-50 46 22 55 14 0 8-55-64-46-14 0Z" fill="#1e5bff" opacity=".9"/>
+  <path d="M290 190v-57h272v70m0 0h119v-57h65" fill="none" stroke="#1e5bff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M291 330h-87v133h87m271-12h-74v70" fill="none" stroke="#ff8a00" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="648" fill="#0b2a5b" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="3">AIR-SOURCE HEAT PUMP SYSTEM</text>
+</svg>

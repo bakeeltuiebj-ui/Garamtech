@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title">
+  <title id="title">Stainless steel hot water storage tank illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eaf3ff"/><stop offset="1" stop-color="#bfd4ef"/></linearGradient>
+    <linearGradient id="tank" x2="1"><stop stop-color="#8aa0b9"/><stop offset=".4" stop-color="#fff"/><stop offset=".7" stop-color="#e5edf7"/><stop offset="1" stop-color="#879db6"/></linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <path d="M0 565 900 480v220H0Z" fill="#b5c9e0"/>
+  <rect x="284" y="105" width="336" height="460" rx="158" fill="url(#tank)" stroke="#587493" stroke-width="8"/>
+  <ellipse cx="452" cy="111" rx="168" ry="48" fill="#f8fbff" stroke="#587493" stroke-width="8"/>
+  <ellipse cx="452" cy="558" rx="168" ry="46" fill="#a2b5ca" stroke="#587493" stroke-width="8"/>
+  <path d="M452 62V28h198v70m-198 275H247v109h66m307-137h116v-77h60" fill="none" stroke="#1e5bff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M453 393v103" stroke="#ff8a00" stroke-width="14" stroke-linecap="round"/>
+  <path d="M362 199h180M362 226h180" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <text x="70" y="650" fill="#0b2a5b" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="3">INSULATED HOT WATER STORAGE</text>
+</svg>

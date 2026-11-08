@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-labelledby="cp-title cp-desc">
+  <title id="cp-title">Hot Water Circulation Pump Icon</title>
+  <desc id="cp-desc">Clean navy-blue and orange vector icon of an industrial in-line hot water circulation pump</desc>
+  <defs>
+    <linearGradient id="cp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFD"/>
+      <stop offset="100%" stop-color="#EDF3FB"/>
+    </linearGradient>
+    <linearGradient id="cp-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163A70"/>
+      <stop offset="100%" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="cp-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2D6BFF"/>
+      <stop offset="100%" stop-color="#1E5BFF"/>
+    </linearGradient>
+    <linearGradient id="cp-orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA02E"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean card background -->
+  <rect width="600" height="340" fill="url(#cp-bg)"/>
+
+  <!-- Subtle circulation flow watermark -->
+  <circle cx="300" cy="170" r="120" fill="none" stroke="#DDE7F5" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="170" r="95" fill="none" stroke="#E6EEF8" stroke-width="1.5"/>
+
+  <!-- Flanged Pipe Connections (Horizontal In-line) -->
+  <!-- Left Pipe & Flange -->
+  <rect x="140" y="152" width="90" height="36" rx="4" fill="#0B2A5B"/>
+  <rect x="125" y="140" width="18" height="60" rx="3" fill="#163A70"/>
+  <circle cx="134" cy="149" r="3.5" fill="#8FA6C4"/>
+  <circle cx="134" cy="191" r="3.5" fill="#8FA6C4"/>
+  <!-- Left pipe collar -->
+  <path d="M185 148h14v44h-14z" fill="#1E5BFF" opacity="0.85"/>
+
+  <!-- Right Pipe & Flange -->
+  <rect x="370" y="152" width="90" height="36" rx="4" fill="#0B2A5B"/>
+  <rect x="457" y="140" width="18" height="60" rx="3" fill="#163A70"/>
+  <circle cx="466" cy="149" r="3.5" fill="#8FA6C4"/>
+  <circle cx="466" cy="191" r="3.5" fill="#8FA6C4"/>
+  <!-- Right pipe collar -->
+  <path d="M401 148h14v44h-14z" fill="#1E5BFF" opacity="0.85"/>
+
+  <!-- Volute / Casing (Center Pump Body) -->
+  <circle cx="300" cy="170" r="66" fill="url(#cp-navy)"/>
+  <circle cx="300" cy="170" r="54" fill="#0E2347"/>
+
+  <!-- Motor Housing & Cooling Ribs (Top/Back) -->
+  <rect x="256" y="74" width="88" height="42" rx="6" fill="#0B2A5B"/>
+  <rect x="250" y="70" width="100" height="8" rx="3" fill="#FF8A00"/>
+  <!-- Cooling fins -->
+  <line x1="268" y1="82" x2="268" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="280" y1="82" x2="280" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="292" y1="82" x2="292" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="304" y1="82" x2="304" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="316" y1="82" x2="316" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="328" y1="82" x2="328" y2="112" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Terminal Box with Orange Accents -->
+  <rect x="336" y="98" width="38" height="34" rx="4" fill="#163A70" stroke="#0B2A5B" stroke-width="2"/>
+  <circle cx="355" cy="115" r="7" fill="url(#cp-orange)"/>
+  <circle cx="355" cy="115" r="3" fill="#FFFFFF"/>
+
+  <!-- Impeller Center Hub with Circulation Arrows -->
+  <circle cx="300" cy="170" r="38" fill="url(#cp-blue)"/>
+  <circle cx="300" cy="170" r="28" fill="#FFFFFF"/>
+  <circle cx="300" cy="170" r="18" fill="url(#cp-orange)"/>
+  <circle cx="300" cy="170" r="7" fill="#FFFFFF"/>
+
+  <!-- Rotary Flow Direction Indicators (Orange curved arrows) -->
+  <g fill="url(#cp-orange)">
+    <!-- Top-right arrow -->
+    <path d="M300 134c19.9 0 36 16.1 36 36h-6c0-16.6-13.4-30-30-30v-6z"/>
+    <polygon points="302,128 316,134 302,140"/>
+
+    <!-- Bottom-left arrow -->
+    <path d="M300 206c-19.9 0-36-16.1-36-36h6c0 16.6 13.4 30 30 30v6z"/>
+    <polygon points="298,212 284,206 298,200"/>
+  </g>
+
+  <!-- Flow Direction Arrows on pipes -->
+  <g fill="#FF8A00">
+    <path d="M192 170l-8-6v4h-14v4h14v4z"/>
+    <path d="M422 170l-8-6v4h-14v4h14v4z"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title">
+  <title id="title">Immersion heating elements, thread sizes and packing illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#edf4ff"/><stop offset="1" stop-color="#c5d8f0"/></linearGradient>
+    <linearGradient id="metal" x2="1"><stop stop-color="#768da8"/><stop offset=".45" stop-color="#fff"/><stop offset="1" stop-color="#9aafc7"/></linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <rect x="30" y="30" width="840" height="640" rx="28" fill="#fff" opacity=".5"/>
+  <g fill="none" stroke="url(#metal)" stroke-width="18" stroke-linecap="round">
+    <path d="M180 190v190c0 52 100 52 100 0V190"/>
+    <path d="M340 175v225c0 63 116 63 116 0V175"/>
+    <path d="M520 155v250c0 76 138 76 138 0V155"/>
+  </g>
+  <g stroke="#607b9c" stroke-width="6" fill="#e1eaf6">
+    <path d="M162 169h136v40H162zM322 152h152v42H322zM501 132h176v45H501z"/>
+    <path d="M163 181h132m-132 10h132m27-26h152m-152 11h152m-150 11h150m23-42h176m-176 12h176m-176 12h176"/>
+  </g>
+  <g fill="#0b2a5b"><rect x="111" y="474" width="208" height="120" rx="12"/><rect x="341" y="474" width="208" height="120" rx="12"/><rect x="571" y="474" width="208" height="120" rx="12"/></g>
+  <g fill="#d8e6fa"><path d="M147 509h136v54H147z"/><path d="M377 509h136v54H377z"/><path d="M607 509h136v54H607z"/></g>
+  <g fill="#ff9a20"><circle cx="178" cy="535" r="8"/><circle cx="407" cy="535" r="8"/><circle cx="638" cy="535" r="8"/></g>
+  <g fill="#0b2a5b" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><text x="215" y="626">ELEMENTS</text><text x="445" y="626">BSP THREADS</text><text x="675" y="626">PACKING</text></g>
+</svg>

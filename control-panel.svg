@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-labelledby="ctrl-title ctrl-desc">
+  <title id="ctrl-title">Water System Control Panel Icon</title>
+  <desc id="ctrl-desc">Clean navy-blue and orange vector icon of an industrial electrical water heating and treatment control panel</desc>
+  <defs>
+    <linearGradient id="ctrl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFD"/>
+      <stop offset="100%" stop-color="#EDF3FB"/>
+    </linearGradient>
+    <linearGradient id="ctrl-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163A70"/>
+      <stop offset="100%" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="ctrl-screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05152F"/>
+      <stop offset="100%" stop-color="#0A2246"/>
+    </linearGradient>
+    <linearGradient id="ctrl-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2D6BFF"/>
+      <stop offset="100%" stop-color="#1E5BFF"/>
+    </linearGradient>
+    <linearGradient id="ctrl-orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA02E"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean card background -->
+  <rect width="600" height="340" fill="url(#ctrl-bg)"/>
+
+  <!-- Subtle circuit watermark -->
+  <circle cx="300" cy="170" r="120" fill="none" stroke="#DDE7F5" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="170" r="95" fill="none" stroke="#E6EEF8" stroke-width="1.5"/>
+
+  <!-- Industrial Cabinet Body (Navy Enclosure) -->
+  <!-- Cabinet Wall Mount Flanges / Brackets -->
+  <rect x="186" y="52" width="228" height="236" rx="14" fill="#071C40" opacity="0.25"/>
+  <rect x="180" y="48" width="240" height="236" rx="12" fill="url(#ctrl-navy)" stroke="#1E5BFF" stroke-width="2"/>
+
+  <!-- Cabinet Door Inner Bevel -->
+  <rect x="194" y="60" width="212" height="212" rx="8" fill="#0B2A5B" stroke="#163A70" stroke-width="2"/>
+
+  <!-- Cabinet Door Quarter-Turn Latches -->
+  <g fill="#8FA6C4">
+    <circle cx="396" cy="100" r="6"/>
+    <rect x="393" y="97" width="6" height="14" rx="1" fill="#DDE7F5"/>
+    <circle cx="396" cy="232" r="6"/>
+    <rect x="393" y="229" width="6" height="14" rx="1" fill="#DDE7F5"/>
+  </g>
+
+  <!-- Digital HMI Display Screen (Top Half) -->
+  <rect x="214" y="76" width="172" height="74" rx="6" fill="url(#ctrl-screen)" stroke="#1E5BFF" stroke-width="2"/>
+  <rect x="220" y="82" width="160" height="62" rx="4" fill="#071C40"/>
+
+  <!-- Screen Content: System Parameters & Status Wave -->
+  <!-- Status Heading / Header line -->
+  <line x1="228" y1="92" x2="372" y2="92" stroke="#1E5BFF" stroke-width="1" opacity="0.6"/>
+  <circle cx="232" cy="88" r="2.5" fill="#10B981"/>
+  <circle cx="242" cy="88" r="2" fill="#1E5BFF"/>
+  <circle cx="250" cy="88" r="2" fill="#1E5BFF"/>
+
+  <!-- Waveform / Telemetry Curve (Orange & Cyan) -->
+  <path d="M228 122 L248 122 L256 104 L266 132 L276 112 L288 122 L312 122" fill="none" stroke="url(#ctrl-orange)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Digital Metrics Bars -->
+  <rect x="328" y="104" width="44" height="6" rx="3" fill="#1E5BFF"/>
+  <rect x="328" y="114" width="34" height="6" rx="3" fill="#1E5BFF" opacity="0.7"/>
+  <rect x="328" y="124" width="22" height="6" rx="3" fill="url(#ctrl-orange)"/>
+
+  <!-- Pilot Status Indicator Lamps (Navy, Green, Orange) -->
+  <g id="indicator-lamps">
+    <!-- Power Lamp (Blue) -->
+    <circle cx="236" cy="172" r="10" fill="#071C40" stroke="#1E5BFF" stroke-width="2"/>
+    <circle cx="236" cy="172" r="6" fill="#1E5BFF"/>
+    <circle cx="234" cy="170" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+    <!-- Auto / Run Lamp (Teal) -->
+    <circle cx="274" cy="172" r="10" fill="#071C40" stroke="#10B981" stroke-width="2"/>
+    <circle cx="274" cy="172" r="6" fill="#10B981"/>
+    <circle cx="272" cy="170" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+    <!-- Heat / Warning Lamp (Orange) -->
+    <circle cx="312" cy="172" r="10" fill="#071C40" stroke="#FF8A00" stroke-width="2"/>
+    <circle cx="312" cy="172" r="6" fill="url(#ctrl-orange)"/>
+    <circle cx="310" cy="170" r="2" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+
+  <!-- Rotary Selector Switches (Hand - Off - Auto) -->
+  <g id="selector-switches">
+    <!-- Switch 1 -->
+    <circle cx="240" cy="224" r="15" fill="#071C40" stroke="#163A70" stroke-width="2"/>
+    <rect x="237" y="212" width="6" height="24" rx="2" fill="#DDE7F5"/>
+    <circle cx="240" cy="224" r="5" fill="#1E5BFF"/>
+
+    <!-- Switch 2 -->
+    <circle cx="288" cy="224" r="15" fill="#071C40" stroke="#163A70" stroke-width="2"/>
+    <rect x="285" y="212" width="6" height="24" rx="2" fill="#DDE7F5"/>
+    <circle cx="288" cy="224" r="5" fill="#1E5BFF"/>
+  </g>
+
+  <!-- Emergency Stop Button (E-Stop Mushroom Cap with Orange Bezel) -->
+  <g id="estop">
+    <!-- E-Stop Protective Guard / Bezel -->
+    <circle cx="356" cy="202" r="22" fill="#FF8A00" opacity="0.2"/>
+    <circle cx="356" cy="202" r="18" fill="#FF8A00" opacity="0.4"/>
+    <circle cx="356" cy="202" r="15" fill="#071C40"/>
+    <!-- Yellow/Orange Mushroom Knob -->
+    <circle cx="356" cy="202" r="12" fill="url(#ctrl-orange)"/>
+    <circle cx="356" cy="202" r="8" fill="#FF7000"/>
+    <circle cx="353" cy="199" r="2.5" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+
+  <!-- Bottom Cable Gland / Conduit Entries -->
+  <rect x="240" y="284" width="16" height="8" rx="2" fill="#071C40"/>
+  <rect x="292" y="284" width="16" height="8" rx="2" fill="#071C40"/>
+  <rect x="344" y="284" width="16" height="8" rx="2" fill="#071C40"/>
+</svg>

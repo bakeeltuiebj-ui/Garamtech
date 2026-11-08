@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-labelledby="pp-title pp-desc">
+  <title id="pp-title">Industrial Pressure Booster Pump Icon</title>
+  <desc id="pp-desc">Clean navy-blue and orange vector icon of an industrial water pressure booster pump and pressure vessel</desc>
+  <defs>
+    <linearGradient id="pp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFD"/>
+      <stop offset="100%" stop-color="#EDF3FB"/>
+    </linearGradient>
+    <linearGradient id="pp-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163A70"/>
+      <stop offset="100%" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="pp-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2D6BFF"/>
+      <stop offset="100%" stop-color="#1E5BFF"/>
+    </linearGradient>
+    <linearGradient id="pp-orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA02E"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean card background -->
+  <rect width="600" height="340" fill="url(#pp-bg)"/>
+
+  <!-- Subtle pressure pulse watermark rings -->
+  <circle cx="230" cy="175" r="120" fill="none" stroke="#DDE7F5" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="230" cy="175" r="95" fill="none" stroke="#E6EEF8" stroke-width="1.5"/>
+
+  <!-- Heavy Base Skid (Navy) -->
+  <rect x="140" y="260" width="320" height="14" rx="4" fill="#0B2A5B"/>
+  <rect x="150" y="274" width="300" height="6" rx="2" fill="#163A70"/>
+  <rect x="160" y="254" width="280" height="6" rx="2" fill="#1E5BFF" opacity="0.6"/>
+
+  <!-- Pressure Expansion Tank (Right side) -->
+  <g id="expansion-tank">
+    <!-- Tank Base & Stand -->
+    <rect x="364" y="238" width="48" height="22" rx="3" fill="#0B2A5B"/>
+    <!-- Tank Body (Cylindrical with domed top) -->
+    <path d="M344 140 C344 100 432 100 432 140 L432 230 C432 238 344 238 344 230 Z" fill="url(#pp-navy)"/>
+    <!-- Tank highlight / band -->
+    <path d="M344 175 C344 185 432 185 432 175 L432 185 C432 195 344 195 344 185 Z" fill="#1E5BFF" opacity="0.8"/>
+    <!-- Tank Orange Ring Accent -->
+    <rect x="340" y="148" width="96" height="5" rx="2.5" fill="url(#pp-orange)"/>
+    <!-- Tank Connection Valve / Pipe -->
+    <rect x="382" y="238" width="12" height="22" fill="#8FA6C4"/>
+    <path d="M312 245 L382 245" stroke="#163A70" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Vertical Multistage Booster Pump (Left side) -->
+  <g id="pump-unit">
+    <!-- Pump Base Volute -->
+    <rect x="202" y="228" width="60" height="32" rx="4" fill="#0B2A5B"/>
+    <rect x="180" y="236" width="30" height="16" rx="2" fill="#163A70"/>
+    <rect x="174" y="232" width="6" height="24" rx="2" fill="#8FA6C4"/>
+
+    <!-- Multistage Chamber / Barrel -->
+    <rect x="210" y="160" width="44" height="68" rx="4" fill="url(#pp-navy)"/>
+    <!-- Stages (Horizontal Rings) -->
+    <line x1="210" y1="174" x2="254" y2="174" stroke="#1E5BFF" stroke-width="3"/>
+    <line x1="210" y1="188" x2="254" y2="188" stroke="#1E5BFF" stroke-width="3"/>
+    <line x1="210" y1="202" x2="254" y2="202" stroke="#1E5BFF" stroke-width="3"/>
+    <line x1="210" y1="216" x2="254" y2="216" stroke="#1E5BFF" stroke-width="3"/>
+
+    <!-- Motor Stool / Intermediate Coupling -->
+    <rect x="216" y="146" width="32" height="14" rx="2" fill="#071C40"/>
+    <rect x="208" y="142" width="48" height="4" rx="2" fill="#8FA6C4"/>
+
+    <!-- Electric Motor Body -->
+    <rect x="204" y="80" width="56" height="62" rx="6" fill="url(#pp-navy)"/>
+    <!-- Motor Top Fan Shroud -->
+    <path d="M210 80 C210 68 254 68 254 80 Z" fill="#071C40"/>
+    <rect x="216" y="66" width="32" height="5" rx="2.5" fill="url(#pp-orange)"/>
+
+    <!-- Motor Cooling Fins -->
+    <line x1="214" y1="88" x2="214" y2="134" stroke="#1E5BFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="224" y1="88" x2="224" y2="134" stroke="#1E5BFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="232" y1="88" x2="232" y2="134" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="240" y1="88" x2="240" y2="134" stroke="#1E5BFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="250" y1="88" x2="250" y2="134" stroke="#1E5BFF" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Terminal Box with Orange Accent -->
+    <rect x="254" y="98" width="22" height="24" rx="3" fill="#163A70"/>
+    <circle cx="265" cy="110" r="4" fill="url(#pp-orange)"/>
+  </g>
+
+  <!-- Manifold & Piping connecting Pump & Tank -->
+  <path d="M256 244 L348 244" stroke="#1E5BFF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="288" y="238" width="10" height="18" rx="2" fill="#FF8A00"/>
+
+  <!-- High-Precision Pressure Gauge on Top of Manifold -->
+  <g id="pressure-gauge">
+    <!-- Stalk / Fitting -->
+    <rect x="290" y="196" width="6" height="42" fill="#8FA6C4"/>
+    <rect x="286" y="222" width="14" height="6" rx="1" fill="#FF8A00"/>
+    <!-- Gauge Outer Bezel (Navy) -->
+    <circle cx="293" cy="172" r="26" fill="#0B2A5B"/>
+    <circle cx="293" cy="172" r="23" fill="#FFFFFF"/>
+    <!-- Gauge Dial Markings -->
+    <circle cx="293" cy="172" r="19" fill="none" stroke="#DDE7F5" stroke-width="2"/>
+    <path d="M280 181 A16 16 0 1 1 306 181" fill="none" stroke="#1E5BFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M298 159 A16 16 0 0 1 306 181" fill="none" stroke="#FF8A00" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Gauge Needle (Pointing to Orange high pressure zone) -->
+    <line x1="293" y1="172" x2="304" y2="162" stroke="#FF8A00" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="293" cy="172" r="3.5" fill="#0B2A5B"/>
+  </g>
+
+  <!-- Upward Pressure Boost Indicators (Dynamic orange chevrons) -->
+  <g stroke="url(#pp-orange)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M164 190 L172 182 L180 190"/>
+    <path d="M164 178 L172 170 L180 178"/>
+    <path d="M164 166 L172 158 L180 166"/>
+  </g>
+</svg>

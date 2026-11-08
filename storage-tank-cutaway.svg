@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <linearGradient id="stc-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F8FD"/>
+    </linearGradient>
+    <linearGradient id="stc-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163A70"/>
+      <stop offset="100%" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="stc-steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="stc-inner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="35%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="stc-puf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FED7AA"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
+    </linearGradient>
+    <linearGradient id="stc-water" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="40%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <linearGradient id="stc-coil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="50%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="1000" height="650" fill="url(#stc-bg)"/>
+  <rect x="25" y="25" width="950" height="600" rx="16" fill="#FFFFFF" stroke="#DCE6F5" stroke-width="2"/>
+
+  <!-- Diagram Title Header -->
+  <rect x="45" y="45" width="910" height="54" rx="8" fill="#0B2A5B"/>
+  <text x="65" y="78" fill="#FFFFFF" font-family="'Montserrat', sans-serif" font-size="18" font-weight="700" letter-spacing="1">INSULATED HOT WATER STORAGE TANK — CONSTRUCTION CUTAWAY</text>
+  <text x="730" y="77" fill="#FF8A00" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" letter-spacing="2">SS304 / SS316 GRADE</text>
+
+  <!-- TANK CROSS-SECTION ASSEMBLY (Centered around x=480, y=140 to 520) -->
+  <g id="tank-assembly">
+    <!-- Base Mounting Stand -->
+    <rect x="360" y="520" width="240" height="18" rx="4" fill="#0B2A5B"/>
+    <rect x="390" y="538" width="28" height="40" rx="2" fill="#163A70"/>
+    <rect x="542" y="538" width="28" height="40" rx="2" fill="#163A70"/>
+    <rect x="375" y="574" width="58" height="8" rx="2" fill="#0B2A5B"/>
+    <rect x="527" y="574" width="58" height="8" rx="2" fill="#0B2A5B"/>
+
+    <!-- Layer 1: Outer Jacket (Left solid half, Right cut open) -->
+    <!-- Left outer jacket (Cylindrical shell) -->
+    <path d="M480 140 L340 140 C310 140 310 510 340 510 L480 510" fill="url(#stc-steel)" stroke="#64748B" stroke-width="2"/>
+    <ellipse cx="480" cy="140" rx="170" ry="25" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+
+    <!-- Layer 2: 50mm High-Density PUF Insulation (Amber Layer) -->
+    <path d="M480 152 L358 152 C335 152 335 498 358 498 L480 498 Z" fill="url(#stc-puf)" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <path d="M480 152 L602 152 C625 152 625 498 602 498 L480 498 Z" fill="url(#stc-puf)" opacity="0.25"/>
+
+    <!-- Layer 3: Inner Stainless Steel Tank Vessel (Pressurized Sanitary SS304) -->
+    <path d="M480 162 L375 162 C355 162 355 488 375 488 L480 488" fill="url(#stc-inner)" stroke="#0B2A5B" stroke-width="2"/>
+    <path d="M480 162 L585 162 C605 162 605 488 585 488 L480 488" fill="#F1F5F9" stroke="#0B2A5B" stroke-width="2"/>
+
+    <!-- Stored Water Core with Thermal Stratification -->
+    <rect x="376" y="166" width="208" height="318" fill="url(#stc-water)" opacity="0.75" rx="10"/>
+
+    <!-- Internal Heat Exchanger Coil (Helical Spiral Copper/SS Bundle) -->
+    <g id="internal-coil">
+      <!-- Spiral coil turns -->
+      <path d="M420 440 C440 430 520 430 540 440 C520 450 440 450 420 440" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 405 C440 395 520 395 540 405 C520 415 440 415 420 405" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 370 C440 360 520 360 540 370 C520 380 440 380 420 370" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 335 C440 325 520 325 540 335 C520 345 440 345 420 335" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 300 C440 290 520 290 540 300 C520 310 440 310 420 300" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 265 C440 255 520 255 540 265 C520 275 440 275 420 265" fill="none" stroke="url(#stc-coil)" stroke-width="12" stroke-linecap="round"/>
+
+      <!-- Coil connection ports extending right -->
+      <path d="M540 265 L635 265" fill="none" stroke="#EA580C" stroke-width="10" stroke-linecap="round"/>
+      <rect x="635" y="258" width="12" height="14" rx="2" fill="#0B2A5B"/>
+
+      <path d="M540 440 L635 440" fill="none" stroke="#1E5BFF" stroke-width="10" stroke-linecap="round"/>
+      <rect x="635" y="433" width="12" height="14" rx="2" fill="#0B2A5B"/>
+    </g>
+
+    <!-- Sacrificial Magnesium Anode Rod (Vertical through center) -->
+    <rect x="477" y="175" width="6" height="260" rx="3" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+    <circle cx="480" cy="170" r="5" fill="#FF8A00"/>
+
+    <!-- Backup Immersion Electric Heating Element Port (Left Side) -->
+    <rect x="305" y="385" width="70" height="24" rx="3" fill="#FF8A00" stroke="#0B2A5B" stroke-width="2"/>
+    <path d="M375 390 L450 390 L450 404 L375 404" fill="none" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+    <rect x="290" y="380" width="18" height="34" rx="3" fill="#0B2A5B"/>
+
+    <!-- Top Hot Water Draw-off Port -->
+    <rect x="468" y="115" width="24" height="28" fill="#163A70"/>
+    <path d="M480 115 L480 85" stroke="#FF5500" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Bottom Cold Water Inlet with Stratification Diffuser -->
+    <rect x="468" y="508" width="24" height="24" fill="#163A70"/>
+    <path d="M480 530 L480 560" stroke="#1E5BFF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M455 490 Q480 480 505 490" fill="none" stroke="#1E5BFF" stroke-width="4"/>
+  </g>
+
+  <!-- TECHNICAL ANNOTATIONS & CALLOUTS -->
+  <!-- Left Side Callouts -->
+  <g id="left-callouts" transform="translate(60, 160)">
+    <!-- 1. Outer Cladding -->
+    <line x1="220" y1="20" x2="160" y2="20" stroke="#0B2A5B" stroke-width="1.5"/>
+    <circle cx="220" cy="20" r="4" fill="#0B2A5B"/>
+    <text x="150" y="24" text-anchor="end" fill="#0B2A5B" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Weatherproof SS Outer Jacket</text>
+    <text x="150" y="38" text-anchor="end" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Corrosion-resistant protective skin</text>
+
+    <!-- 2. PUF Insulation -->
+    <line x1="260" y1="90" x2="160" y2="90" stroke="#EA580C" stroke-width="1.5"/>
+    <circle cx="260" cy="90" r="4" fill="#EA580C"/>
+    <text x="150" y="94" text-anchor="end" fill="#EA580C" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">50mm High-Density PUF Layer</text>
+    <text x="150" y="108" text-anchor="end" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Superior thermal retention (&lt;3°C loss/24h)</text>
+
+    <!-- 3. Inner SS Tank Shell -->
+    <line x1="285" y1="160" x2="160" y2="160" stroke="#1E5BFF" stroke-width="1.5"/>
+    <circle cx="285" cy="160" r="4" fill="#1E5BFF"/>
+    <text x="150" y="164" text-anchor="end" fill="#1E5BFF" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">SS304 / SS316 Inner Tank</text>
+    <text x="150" y="178" text-anchor="end" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Food-grade sanitary TIG-welded vessel</text>
+
+    <!-- 4. Immersion Heating Element Pocket -->
+    <line x1="225" y1="235" x2="160" y2="235" stroke="#FF8A00" stroke-width="1.5"/>
+    <circle cx="225" cy="235" r="4" fill="#FF8A00"/>
+    <text x="150" y="239" text-anchor="end" fill="#FF8A00" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Backup Immersion Element</text>
+    <text x="150" y="253" text-anchor="end" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">1.5" or 2" BSP threaded heating pocket</text>
+  </g>
+
+  <!-- Right Side Callouts -->
+  <g id="right-callouts" transform="translate(680, 160)">
+    <!-- 5. Hot Water Draw-off -->
+    <line x1="-170" y1="-40" x2="-40" y2="-40" stroke="#FF5500" stroke-width="1.5"/>
+    <circle cx="-170" cy="-40" r="4" fill="#FF5500"/>
+    <text x="-30" y="-36" fill="#FF5500" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Hot Water Outlet ↗</text>
+    <text x="-30" y="-22" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Draws maximum temperature hot water</text>
+
+    <!-- 6. Magnesium Anode Rod -->
+    <line x1="-198" y1="40" x2="-40" y2="40" stroke="#0B2A5B" stroke-width="1.5"/>
+    <circle cx="-198" cy="40" r="4" fill="#0B2A5B"/>
+    <text x="-30" y="44" fill="#0B2A5B" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Sacrificial Magnesium Anode</text>
+    <text x="-30" y="58" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Cathodic protection against corrosion</text>
+
+    <!-- 7. Heat Exchanger Coil Inlet -->
+    <line x1="-30" y1="105" x2="30" y2="105" stroke="#EA580C" stroke-width="1.5"/>
+    <circle cx="-30" cy="105" r="4" fill="#EA580C"/>
+    <text x="40" y="109" fill="#EA580C" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Heat Exchanger Coil (Inlet)</text>
+    <text x="40" y="123" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">High-efficiency solar / heat pump loop</text>
+
+    <!-- 8. Coil Outlet Return -->
+    <line x1="-30" y1="280" x2="30" y2="280" stroke="#1E5BFF" stroke-width="1.5"/>
+    <circle cx="-30" cy="280" r="4" fill="#1E5BFF"/>
+    <text x="40" y="284" fill="#1E5BFF" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Heat Exchanger Coil (Return)</text>
+    <text x="40" y="298" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Returns cooled fluid to heat source</text>
+
+    <!-- 9. Cold Water Diffuser -->
+    <line x1="-170" y1="360" x2="-40" y2="360" stroke="#1E5BFF" stroke-width="1.5"/>
+    <circle cx="-170" cy="360" r="4" fill="#1E5BFF"/>
+    <text x="-30" y="364" fill="#1E5BFF" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700">Cold Water Stratification Inlet</text>
+    <text x="-30" y="378" fill="#627087" font-family="'Poppins', sans-serif" font-size="10">Minimizes internal water mixing</text>
+  </g>
+</svg>
